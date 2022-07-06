@@ -11,11 +11,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://kids.nationalgeographic.com/games/quizzes"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          More quizzes
         </a>
       </header>
     </div>
