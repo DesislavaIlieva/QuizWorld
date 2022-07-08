@@ -1,0 +1,23 @@
+.Navigation {
+    background-color: #424751;
+   
+}
+
+.Navigation ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Navigation ul li {
+    position: relative;
+    display: inline-block;
+    color: rgb(230, 231, 222);
+    margin-left: 35px;
+}
