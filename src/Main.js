@@ -1,20 +1,25 @@
-import logo from './logo.svg';
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Error from './components/Error';
+import Home from './components/Home';
+import Profile from './components/Profile';
+import Login from './components/Login';
+import Register from './components/Register';
+import Logout from './components/Logout';
 
 export default function Header(props) {
     return (
-        <header className="Main">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-                {props.text}
-            </p>
-            <a
-                className="App-link"
-                href="https://www.britannica.com/quiz/browse"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                More quizzes
-            </a>
-        </header>)
+        <main className="Main">
+
+            <Routes>
+                <Route path='*' element={<Error />} />
+                <Route path='/' element={<Home />} />
+                <Route path='/profile' element={<Profile />} />
+                <Route path='/login' element={<Login />} />
+                <Route path='/register' element={<Register />} />
+                <Route path='/logout' element={<Logout />} />
+            </Routes>
+            
+        </main>)
 
 }
