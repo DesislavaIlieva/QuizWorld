@@ -19,7 +19,7 @@ li{
     transition: 0.5s;
 }
 
-a{
+.Navigation a{
     display: block;
     position: relative;
     text-decoration: none;
@@ -49,7 +49,7 @@ a:before{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ee5a24;
+    background-color: #005350;
     transition: 0.3s;
     transform: scale(0);
     z-index: -1;
@@ -58,3 +58,14 @@ a:before{
 a:hover:before{
     transform: scale(1);
 }
+
+/* #ee5a24 */
+
+
+/* #005350 */
+
+/* #007f7b */
+
+/* #74ba00 */
+
+/* #f4878f */

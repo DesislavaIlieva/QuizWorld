@@ -1,0 +1,111 @@
+.login-box{
+    margin-bottom: 200px;
+    text-align: center;
+    background: #3c424d;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-key {
+    margin-top: 20px;
+    font-size: 90px;
+    line-height: 100px;
+    background: radial-gradient(#007f7b, #005350);
+    background-clip: text;
+    color: transparent;
+}
+
+.login-title{
+    margin-top: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(230, 231, 222);
+}
+
+.login-form{
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type="text"]{
+    background: #3c424d;
+    border: none;
+    border-bottom: 1px solid rgb(230, 231, 222);
+    font-weight: bold;
+    border-radius: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+input[type="password"]{
+    background: #3c424d;
+    border: none;
+    border-bottom: 1px solid rgb(230, 231, 222);
+    font-weight: bold;
+
+    border-radius: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    margin-bottom: 40px;
+}
+
+.form-control:focus{
+    border-color: #3c424d;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(230, 231, 222);
+    background-color: #3c424d;
+    color: rgb(230, 231, 222);
+}
+
+.form-control-label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #22252c;
+    letter-spacing: 1px;
+}
+
+.login-btn{
+    display: flex;
+    height: 50px;
+}
+
+.login-button {
+    width: 100px; 
+    height: 50px; 
+    margin: auto;
+    /* padding-right: 0px;
+    text-align: left;
+    margin-bottom: 20px; */
+}
+
+.btn-outline-primary{
+    border-color: #007f7b;
+    color: #007f7b;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007f7b;
+    border-color: #007f7b;
+}
+
+.foot-lnk{
+	text-align:center;
+}
+
+.foot-lnk a{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #22252c;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.foot-link a:hover{
+    color: white;
+}
