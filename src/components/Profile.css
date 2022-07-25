@@ -1,0 +1,98 @@
+.card.p-4 {
+    background-color: #3c424d;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.name.mt-3 {
+    margin-top: 20px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(230, 231, 222);
+}
+
+.idd {
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(230, 231, 222);
+}
+
+.number {
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(230, 231, 222);
+}
+
+.follow {
+    margin: 0 30px 0 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #22252c;
+    letter-spacing: 1px;
+}
+
+.btn1 {
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+}
+
+
+.btn1:hover {
+    background-color: #007f7b;
+    border-color: #007f7b;
+    color: white;
+    outline: 5px solid #007f7b;
+}
+
+.btn1:focus-visible{
+    background-color: #007f7b;
+    border-color: #007f7b;
+    color: white;
+    outline: 5px solid #007f7b;
+} 
+
+.create-btnProfile{
+    display: flex;
+    justify-content: center;
+}
+
+.create-buttonProfile {
+    width: 170px; 
+    height: 100px; 
+    margin: auto;
+}
+
+.btn-outline-primaryProfile{
+    width: 170px; 
+    margin-top: 30px;
+    border-color: #007f7b;
+    color: #007f7b;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0px;
+}
+
+.btn-outline-primaryProfile:hover {
+    background-color: #007f7b;
+    border-color: #007f7b;
+}
+
+.btn-outline-primaryProfile:focus{
+    background-color: #007f7b;
+    border-color: #007f7b;
+    outline: 5px solid #007f7b;
+} 
+
+
+.join {
+    font-size: 15px;
+    color: rgb(230, 231, 222);
+}
+
