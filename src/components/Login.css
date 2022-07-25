@@ -1,3 +1,7 @@
+.container{
+    margin-top: 40px;
+}
+
 .login-box{
     margin-bottom: 200px;
     text-align: center;
@@ -93,6 +97,12 @@ input[type="password"]{
     border-color: #007f7b;
 }
 
+.btn-outline-primary:focus{
+    background-color: #007f7b;
+    border-color: #007f7b;
+    outline: 5px solid #007f7b;
+} 
+
 .foot-lnk{
 	text-align:center;
 }
@@ -106,6 +116,10 @@ input[type="password"]{
     text-transform: uppercase;
 }
 
-.foot-link a:hover{
+.foot-lnk a:hover{
     color: white;
+}
+
+.foot-lnk a:focus{
+    outline: none;
 }

@@ -1,16 +1,5 @@
-.Main {
-    background-color: #282c34; 
-     min-height: 100vh; 
-     display: flex; 
-     position: relative; 
-     padding-top: 50px; 
-     flex-direction: column; 
-     align-items: center; 
-     justify-content: center; 
-     font-size: calc(10px + 2vmin); 
-     color: rgb(230, 231, 222); 
-    }
-    
-    .App-link {
-      color: aqua;
-    }
+.imageCard{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
