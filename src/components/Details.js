@@ -4,19 +4,20 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
 
-export default function Catalog() {
+
+export default function Details() {
     return (
         <div>
-            <Row xs={1} md={4} className="g-4">
-                {Array.from({ length: 4 }).map((_, idx) => (
+            <Row xs={1} md={1} className="g-1">
+                {Array.from({ length: 1 }).map((_, idx) => (
                     <Col>
                         <Card
                             text='dark'
                             bg="secondary"
-                            style={{ width: '400px', height: "400px" }}>
+                            style={{ width: '700px', height: "700px" }}>
                             <Card.Img
                                 variant="top"
-                                src="hogwarts.jpg"
+                                src="/hogwarts.jpg"
                                 style={{ width: '100%', height: "50%" }} 
                                 />
                             <Card.Body>
@@ -24,11 +25,18 @@ export default function Catalog() {
                                 <Card.Text>
                                     created by Admin
                                 </Card.Text>
-                                <Link to="/catalog/details">
-                                <Button variant="dark">Details</Button>{' '}
+                                <Card.Text>
+                                    Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu interdum orci. Suspendisse sollicitudin, lectus vel molestie vehicula, diam erat.
+                                </Card.Text>
+                                <Link to="/catalog/quiz">
+                                <Button variant="dark">Take Quiz</Button>{' '}
                                 </Link>
+                                <Link to="/catalog/:id/edit">  
                                 <Button variant="dark">Edit</Button>{' '}
+                                </Link>
+                                <Link to="/catalog/:id/delete">
                                 <Button variant="danger">Delete</Button>
+                                </Link>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -37,5 +45,3 @@ export default function Catalog() {
         </div>
     );
 }
-
-

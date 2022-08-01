@@ -44,19 +44,12 @@
 }
 
 
-.btn1:hover {
+.btn1:hover,  .btn1:focus-visible{
     background-color: #007f7b;
-    border-color: #007f7b;
+    border: none;
     color: white;
     outline: 5px solid #007f7b;
 }
-
-.btn1:focus-visible{
-    background-color: #007f7b;
-    border-color: #007f7b;
-    color: white;
-    outline: 5px solid #007f7b;
-} 
 
 .create-btnProfile{
     display: flex;
@@ -79,16 +72,11 @@
     border-radius: 0px;
 }
 
-.btn-outline-primaryProfile:hover {
+.btn-outline-primaryProfile:hover, .btn-outline-primaryProfile:focus-visible {
     background-color: #007f7b;
     border-color: #007f7b;
+    color: rgb(230, 231, 222);
 }
-
-.btn-outline-primaryProfile:focus{
-    background-color: #007f7b;
-    border-color: #007f7b;
-    outline: 5px solid #007f7b;
-} 
 
 
 .join {
